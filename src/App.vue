@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import AppLayout from "./layouts/AppLayout.vue";
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <h2><router-link to="/">Home</router-link></h2>
   <h2><router-link to="/about">About</router-link></h2>
 
-  <RouterView />
+  <AppLayout />
 </template>
 
 <style scoped>
