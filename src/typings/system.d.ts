@@ -192,7 +192,9 @@ declare namespace App {
 
 declare namespace I18nType {
   type LangType = "en" | "vi";
-  type Schema = {};
+  type Schema = {
+    message: string;
+  };
   type GetI18nKey<
     T extends Record<string, unknown>,
     K extends keyof T = keyof T

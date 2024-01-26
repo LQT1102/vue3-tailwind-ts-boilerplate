@@ -1,3 +1,7 @@
 {
-    "message": "Xin chào từ Tiếng Việt"
+  "message": "Xin chào từ Tiếng Việt",
+  "messWithParam": "{0} Xin chào",
+  "content": {
+    "nested": "Cấp 2"
   }
+}
